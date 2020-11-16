@@ -1,15 +1,21 @@
 @import "{{ site.theme }}";
 
-#header nav,
-section,
+#header {
+    nav {
+        max-width: 1000px;
+        background: none;
+        li {
+            a {
+                color: black;
+            }
+        }
+    }
+}
+
+section {
+    max-width: 1000px;
+}
+
 .wrapper {
-    max-width:1000px;
-}
-
-#header nav {
-    background: none;
-}
-
-#header nav li a {
-    color: black;
+    max-width: 1000px;
 }
